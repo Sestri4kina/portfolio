@@ -1,0 +1,140 @@
+body {
+  position: relative;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+/* Logo icon */
+h1 {
+  text-transform: uppercase;
+  color: #343434;
+  margin: 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h3 {
+  color: #343434;
+  margin: 10px;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+h5 {
+  color: #343434;
+  margin: 10px;
+  font-size: 1.75em;
+}
+
+p, ul {
+  font-size: 1em;
+  color: #343434;
+}
+
+.container-fluid {
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  margin: 0;
+}
+
+span {
+  font-family: Lobster, sans-serif;
+  color: #ffa800;
+}
+
+#quotes {
+  text-align: right;
+  font-family: Lobster, sans-serif;
+  background-color: #ffa800;
+}
+
+/* Section 0 */
+#home {
+  padding-top: 70px;
+  height: auto;
+  background: url(http://66.media.tumblr.com/181e1c15865c4d3cc266234f0550265c/tumblr_o5ohk1t3gX1sgt77qo1_1280.jpg) no-repeat center center;
+  background-size: cover;
+  font-family: Montserrat, sans-serif;
+}
+#home h3 {
+  color: #ffa800;
+  text-align: center;
+}
+#home h5 {
+  background: rgba(34, 34, 34, 0.65);
+  color: #edddc4;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 70px;
+}
+#home li {
+  background: rgba(34, 34, 34, 0.7);
+  color: #edddc4;
+  text-align: center;
+}
+#home #welcome {
+  height: 250px;
+}
+
+/* Section 1-1 */
+#skills {
+  padding-top: 20px;
+  height: auto;
+  background-color: #edddc4;
+}
+#skills h3 {
+  text-align: center;
+  color: #ffa800;
+  font-family: Lobster, sans-serif;
+  background: rgba(34, 34, 34, 0.6);
+  padding: 5px;
+}
+#skills p, #skills li {
+  color: #343434;
+}
+
+/* Section 2, Section 3*/
+#my-works {
+  margin: 0px;
+  background-color: #edddc4;
+}
+
+#contact {
+  margin: 0px;
+  background-color: #edddc4;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* FOOTER */
+.footer {
+  height: auto;
+  text-align: center;
+  background-color: #c8c0b3;
+  margin: 0px;
+}
+.footer .container-fluid {
+  position: relative;
+  top: 20px;
+}
+.footer p {
+  color: #343434;
+  margin: 0 0 30px 0;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .img-responsive {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 980px) {
+  .img-responsive {
+    margin-bottom: 10px;
+  }
+}
