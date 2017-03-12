@@ -6,7 +6,7 @@ $icecream-color: #faefd1;
 body {
       position: relative;
       margin: 0;
-      font-family: Montserrat, sans-serif;
+      font-family: sans-serif;
   }
 
 /* Logo icon */
@@ -40,24 +40,19 @@ p, ul {
   margin: 0;
 }
 span {
-  font-family: Lobster, sans-serif;
+  font-family: sans-serif;
   color: $mustard-color;
 }
 
-#quotes {
-  text-align: right;
-  font-family:  Lobster, sans-serif;
-  background-color: $mustard-color;
-}
 
 /* Section 0 */
 #home {
      padding-top: 70px;
      //margin-top: 10px;
      height: auto;
-     background: url(http://66.media.tumblr.com/181e1c15865c4d3cc266234f0550265c/tumblr_o5ohk1t3gX1sgt77qo1_1280.jpg) no-repeat center center;
+     background: url("/src/images/home.jpg") no-repeat center center;
      background-size: cover;
-     font-family: Montserrat, sans-serif;
+     font-family: sans-serif;
      h3 {
        color: $mustard-color;
        text-align: center;
@@ -89,7 +84,7 @@ span {
      h3 {
          text-align: center;
          color: $mustard-color;
-         font-family: Lobster, sans-serif;
+         font-family: sans-serif;
          background: rgba(34,34,34, 0.60);
          padding: 5px;
      }
@@ -101,13 +96,13 @@ span {
 
 
 /* Section 2, Section 3*/
- #my-works {
-    margin: 0px;
+ #works {
+    margin: 0 auto;
     background-color: $beige-color;
 }
 
  #contact {
-    margin: 0px;
+    margin: 0 auto;
     background-color: $beige-color;
   }
 
@@ -124,8 +119,7 @@ span {
   margin: 0px;
   .container-fluid {
   position: relative;
-  top: 20px;
-}
+  }
  p {
   color: $gray-color;
   margin: 0 0 30px 0;
@@ -135,6 +129,17 @@ span {
 } 
 }
 
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-links li {
+  display: block;
+}
+
+.social-links li a {
+  color: #fff;
+}
 
 @media (max-width: 500px){
   .img-responsive{
